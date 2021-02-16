@@ -2,11 +2,11 @@
 /* Написать, функцию, которая принимает в качестве аргумента объект и выводит
  в консоль все ключи и значения только собственных свойств. Данная функция не должна возвращать значение.*/
 
-function check(a) {
-    for(let key in a){
-        if (a.hasOwnProperty(key)){
+function check(obj) {
+    for(let key in check){
+        if (check.hasOwnProperty(key)){
             console.log(key);
-            console.log(a[key]);
+            console.log(check[key]);
         }
     }
 }
